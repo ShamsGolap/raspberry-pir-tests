@@ -12,6 +12,7 @@ previous_state = False
 current_state = False
 
 while True:
+<<<<<<< HEAD
     time.sleep(0.1)
     previous_state = current_state
     current_state = GPIO.input(pir)
@@ -23,3 +24,4 @@ while True:
 
         else:
             os.system('mpg123 au_revoir.mp3 &')
+
